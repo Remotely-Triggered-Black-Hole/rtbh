@@ -14,3 +14,8 @@
     width: calc(100% - 320px); // 320px reserved for sidebar/header
   }
 }
+
+// Hide the theme footer
+footer {
+  display: none;
+}
