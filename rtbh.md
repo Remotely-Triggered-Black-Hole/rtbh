@@ -16,7 +16,6 @@
 | Telxius | 12956 | No | /30 | /32 | /126 | /128 | No | No | No | No | No | 65535:666 | No |
 | SOX (Serbian Open eXchange) | 13004 | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Marseille | 20717 | Yes | Any | Any | Any | Any | Yes | Yes | Yes | Yes | No | 65535:666 | Yes |
-| AAAAAAAA | 23456 | No | - | - | - | - | - | - | - | - | - | - | - |
 | Equinix IXP | 24115 | ? | /32 | /32 | /128 | /128 | ? | ? | ? | ? | ? | 65535:666 | ? |
 | NL-ix | 24785 | Yes | Any | Any | Any | Any | Yes | Yes | Yes | No | No | 65535:666 | ? |
 | STHIX (Stockholm IX) | 33886 | - | - | - | - | - | - | - | - | - | - | - | - |
