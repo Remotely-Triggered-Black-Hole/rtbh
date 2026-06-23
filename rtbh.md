@@ -31,6 +31,5 @@
 | DE-CIX Dusseldorf | 56890 | Yes | Any | Any | Any | Any | Yes | Yes | Yes | Yes | No | 65535:666 | Yes |
 | Peering.cz | 61195 | - | - | - | - | - | - | - | - | - | - | - | - |
 | MIX (Milan Internet eXchange) | 61968 | - | - | - | - | - | - | - | - | - | - | - | - |
-| adsadadadsa | 65555 | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Copenhagen | 201561 | Yes | Any | Any | Any | Any | Yes | Yes | Yes | Yes | No | 65535:666 | Yes |
 | FrankonIX | 214591 | - | - | - | - | - | - | - | - | - | - | - | - |
