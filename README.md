@@ -1,6 +1,6 @@
 # Overview
 
-The page documents which networks support Remote Triggered Black Hole (RTBH) filtering, and if so, what their implementation supports.
+The page documents which networks support RTBH filtering, and if so, how it is configured.
 
 Please make pull requests to add additional networks or correct any mistakes.
 
@@ -34,7 +34,7 @@ Meaning of the values in the table:
 - If a network accepts ROA invalids due to the RTBH route exceeding maxLength then `Yes` is used in the `ROA Invalid Accepted` column.
   - If the network checks there is a ROA for a covering prefix from the same origin, `Yes` is used in the `ROA Covering Origin Validated` column.
   - Vice versa, if no covering prefix ROA check is made, `No` is used in the `ROA Covering Origin Validated` column if.
-  - In either case the prefix is ROA invalid, this is gauge how many networks are doing an extra check.
+  - In either case the prefix is ROA invalid, this is to gauge how many networks are doing an extra check.
 
 ## References
 

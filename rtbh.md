@@ -13,7 +13,7 @@
 | DE-CIX Marseille | 20717 | Yes | Any | Any | Any | Any | Yes | Yes | Yes | Yes | No | 65535:666 | Yes |
 | DE-CIX Munich | 47228 | Yes | Any | Any | Any | Any | Yes | Yes | Yes | Yes | No | 65535:666 | Yes |
 | Deutsche Telekom | 3320 | No | Any | Any | Any | Any | Yes | No | No | No | No | 65000:0 | No |
-| Equinix IXP | 24115 | ? | /32 | /32 | /128 | /128 | ? | ? | ? | ? | ? | Yes | ? |
+| Equinix IXP | 24115 | ? | /32 | /32 | /128 | /128 | ? | ? | ? | ? | ? | 65535:666 | ? |
 | FrankonIX | 214591 | - | - | - | - | - | - | - | - | - | - | - | - |
 | Frys-IX | 56393 | - | - | - | - | - | - | - | - | - | - | - | - |
 | GTT | 3257 | ? | /30 | /32 | /64 | /128 | Yes | Yes | ? | No | No | 3257:2666 | No |
