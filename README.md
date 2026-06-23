@@ -4,9 +4,9 @@ The page documents which networks support Remote Triggered Black Hole (RTBH) fil
 
 Please make pull requests to add additional networks or correct any mistakes.
 
-## RTBH Support by Network
+## RTBH Configuration by Network
 
-See the file [rtbh.csv](rtbh.csv) for the current state of RTBH support by network.
+See the [RTBH Table](rtbh.md) for the current state of RTBH configuration by network.
 
 ## Table Headers
 
@@ -29,10 +29,10 @@ The table headers are defined as follows:
 
 Meaning of the values in the table:
 
-* If a network doesn't support RTBH all columns are set to a dash `-`.
-* Unknown values are set to a question mark `?`.
-* If a network accepts ROA invalids due to the RTBH route exceeding maxLength then it doesn't perform a check if there is a ROA for the covering prefix with the same origin. Therefore `N/A` is used in the `ROA Invalid Accepted` column if `ROA Covering Origin Validated` is `Yes`, and vice versa, `N/A` is used in the `ROA Covering Origin Validated` column if `ROA Invalid Accepted` is `Yes`.
+- If a network doesn't support RTBH all columns are set to a dash `-`.
+- Unknown values are set to a question mark `?`.
+- If a network accepts ROA invalids due to the RTBH route exceeding maxLength then it doesn't perform a check if there is a ROA for the covering prefix with the same origin. Therefore `N/A` is used in the `ROA Invalid Accepted` column if `ROA Covering Origin Validated` is `Yes`, and vice versa, `N/A` is used in the `ROA Covering Origin Validated` column if `ROA Invalid Accepted` is `Yes`.
 
 ## References
 
-* [RFC 7999 BLACKHOLE Community](https://www.ietf.org/rfc/rfc7999)
+- [RFC 7999 BLACKHOLE Community](https://www.ietf.org/rfc/rfc7999)
