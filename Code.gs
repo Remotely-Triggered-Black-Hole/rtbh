@@ -28,7 +28,7 @@ function onFormSubmit(e) {
     // Build file content from form responses
     // First value is timestamp of submission
     const timestamp = responses[0].replace(/[:/ \.]/g, "-");
-    let title = PR_BRANCH + timestamp;
+    const branchName = `${PR_BRANCH}${timestamp}-${Utilities.getUuid().slice(0, 8)}`;
     // Drop the timestamp
     responses.splice(0, 1);
 
@@ -75,9 +75,9 @@ function onFormSubmit(e) {
 
     // Run the GitHub flow
     const baseSha   = getBaseBranchSha();
-    createBranch(title, baseSha);
-    createFile(title, body, timestamp);
-    const prUrl = createPullRequest(title, timestamp);
+    createBranch(branchName, baseSha);
+    createFile(branchName, body, timestamp);
+    const prUrl = createPullRequest(branchName, timestamp);
 
     Logger.log(`PR created: ${prUrl}`);
   } catch (err) {
