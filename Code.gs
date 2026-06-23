@@ -45,9 +45,16 @@ function onFormSubmit(e) {
     // Strip the "Does this network support RTBH?" value
     responses.splice(2, 1);
 
-    // If any fields have the value "Don't know", replace them with a question mark
+    // If any remaining fields have the value "Don't know", replace them with a question mark
     responses.forEach((value, index) => {
       if (value === "Don't know") {
+        responses[index] = "?";
+      }
+    });
+
+    // If any remaining fields are blank, replace them with a question mark
+    responses.forEach((value, index) => {
+      if (value === "") {
         responses[index] = "?";
       }
     });
