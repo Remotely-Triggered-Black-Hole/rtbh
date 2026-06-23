@@ -10,7 +10,7 @@ const GITHUB_REPO  = "rtbh";
 const BASE_BRANCH  = "main";
 const PR_BRANCH    = "gform_pr_"; // Prefix for PRs to add data to repo from Google Form
 const FILE_PATH    = "gform.csv"; // path in repo to create/update
-const FIELD_COUNT  = 13; // number of expected form fields (excluding timestamp)
+const FIELD_COUNT  = 14; // number of expected form fields (excludes timestamp and optional fields)
 
 // ─── TRIGGER ──────────────────────────────────────────────────────────────────
 
@@ -29,14 +29,34 @@ function onFormSubmit(e) {
     // First value is timestamp of submission
     const timestamp = responses[0].replace(/[:/ \.]/g, "-");
     let title = PR_BRANCH + timestamp;
-    // Second value is email address which is not send to GitHub
-    // Join the remaining responses into a single CSV line, strip any commas from responses
-    let body = responses.slice(2).map(value => value.replace(/,/g, ' ')).join(",");
+    // Drop the timestamp
+    responses.splice(0, 1);
 
-    // Add commas for any missing fields to ensure consistent CSV field count
-    const missingFields = FIELD_COUNT - (responses.length - 1); // -1 for the timestamp field
-    if (missingFields > 0) {
-      body += ",".repeat(missingFields);
+    // Second value is email address which is not sent to GitHub
+    responses.splice(0, 1);
+
+    // The fifth value is "Does this network support RTBH?" which is not sent to GitHub.
+    responses.splice(2, 1);
+
+    // Replace all instances of "Don't know" with an empty/blank value
+    responses.forEach((value, index) => {
+      if (value === "Don't know") {
+        responses[index] = "";
+      }
+    });
+
+    // Join the remaining responses into a single CSV line, strip any commas from responses
+    let body = responses.slice(0).map(value => value.replace(/,/g, ' ')).join(",");
+
+    // If the last character is a trailing comma, remove it
+    if (body.endsWith(",")) {
+      body = body.slice(0, -1);
+    }
+
+    // Validate the number of fields in the CSV line
+    const fieldCount = body.split(",").length;
+    if (fieldCount !== FIELD_COUNT) {
+      throw new Error(`Invalid number of fields in form submission. Expected ${FIELD_COUNT}, got ${fieldCount}.`);
     }
 
     // Run the GitHub flow
