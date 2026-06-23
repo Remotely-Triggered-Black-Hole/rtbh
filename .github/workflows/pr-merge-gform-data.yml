@@ -1,0 +1,33 @@
+name: PR Merge Gform Data
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  update-from-gform:
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.title, 'gform_pr_')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run script to append Gform data to CSV file and remove Gform file
+        run: |
+          chmod +x ./append-gform-data.sh
+          ./append-gform-data.sh
+
+      - name: Run script to regenerate Markdown table from CSV file
+        run: |
+          chmod +x ./csv_to_md.sh
+          ./csv_to_md.sh
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Merge gform data update from PR #${{ github.event.pull_request.number }} into CSV"
+          git push origin main
