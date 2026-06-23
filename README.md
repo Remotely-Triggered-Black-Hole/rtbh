@@ -31,7 +31,10 @@ Meaning of the values in the table:
 
 - If a network doesn't support RTBH all columns are set to a dash `-`.
 - Unknown values are set to a question mark `?`.
-- If a network accepts ROA invalids due to the RTBH route exceeding maxLength then it doesn't perform a check if there is a ROA for the covering prefix with the same origin. Therefore `N/A` is used in the `ROA Invalid Accepted` column if `ROA Covering Origin Validated` is `Yes`, and vice versa, `N/A` is used in the `ROA Covering Origin Validated` column if `ROA Invalid Accepted` is `Yes`.
+- If a network accepts ROA invalids due to the RTBH route exceeding maxLength then `Yes` is used in the `ROA Invalid Accepted` column.
+  - If the network checks there is a ROA for a covering prefix from the same origin, `Yes` is used in the `ROA Covering Origin Validated` column.
+  - Vice versa, if no covering prefix ROA check is made, `No` is used in the `ROA Covering Origin Validated` column if.
+  - In either case the prefix is ROA invalid, this is gauge how many networks are doing an extra check.
 
 ## References
 
