@@ -29,7 +29,7 @@ The table headers are defined as follows:
 
 Meaning of the values in the table:
 
-- If a network doesn't support RTBH all columns are set to empty.
+- If a network doesn't support RTBH all columns are set to a dash `-`.
 - Unknown values are set to a question mark `?`.
 - If a network accepts ROA invalids due to the RTBH route exceeding maxLength then `Yes` is used in the `ROA Invalid Accepted` column.
   - If the network checks there is a ROA for a covering prefix from the same origin, `Yes` is used in the `ROA Covering Origin Validated` column.

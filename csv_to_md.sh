@@ -10,7 +10,7 @@ sed -i 's/,/ | /g' rtbh.md
 sed -i 's/$/ |/' rtbh.md
 
 # Fill in empty cells with a dash "-"
-sed -E -i ':a; s/\|[[:space:]]*\|/| - |/g; ta' rtbh.md
+# sed -E -i ':a; s/\|[[:space:]]*\|/| - |/g; ta' rtbh.md
 
 # Get the count of columns in the first line of the CSV file
 column_count=$(head -n 1 rtbh.csv | awk -F',' '{print NF}')

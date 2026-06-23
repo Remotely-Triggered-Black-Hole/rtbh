@@ -36,12 +36,19 @@ function onFormSubmit(e) {
     responses.splice(0, 1);
 
     // The fifth value is "Does this network support RTBH?" which is not sent to GitHub.
+    // If this values is "No", then set all remaining values to "-"
+    if (responses[2] === "No") {
+      for (let i = 3; i < responses.length; i++) {
+        responses[i] = "-";
+      }
+    }
+    // Strip the "Does this network support RTBH?" value
     responses.splice(2, 1);
 
-    // Replace all instances of "Don't know" with an empty/blank value
+    // If any fields have the value "Don't know", replace them with a question mark
     responses.forEach((value, index) => {
       if (value === "Don't know") {
-        responses[index] = "";
+        responses[index] = "?";
       }
     });
 
