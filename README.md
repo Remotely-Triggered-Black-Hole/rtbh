@@ -2,7 +2,10 @@
 
 The page documents which networks support RTBH filtering, and if so, how it is configured.
 
-Please make pull requests to add additional networks or correct any mistakes.
+Please contribute to this page by adding the details for networks you know about (or to submit corrections), by:
+
+- Raising a pull request to update [rtbh.csv](rtbh.csv)
+- Or fill out the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScg2Bvr_14onOtZRdoK2SNd0kCHFtqsdw-elsO5miUAO-3zzg/viewform?usp=dialog)
 
 ## RTBH Configuration by Network
 
