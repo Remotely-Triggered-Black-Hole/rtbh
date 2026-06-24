@@ -35,7 +35,7 @@ function onFormSubmit(e) {
     // Second value is email address which is not sent to GitHub
     responses.splice(0, 1);
 
-    // The fifth value is "Does this network support RTBH?" which is not sent to GitHub.
+    // The fifth (now third) value is "Does this network support RTBH?" which is not sent to GitHub.
     // If this values is "No", then set all remaining values to "-"
     if (responses[2] === "No") {
       for (let i = 3; i < responses.length; i++) {
@@ -44,6 +44,11 @@ function onFormSubmit(e) {
     }
     // Strip the "Does this network support RTBH?" value
     responses.splice(2, 1);
+
+    // Strip the "/" character from fields 3-6 (prefix lengths)
+    for (let i = 3; i <= 6; i++) {
+      responses[i] = responses[i].replace(/\//g, "");
+    }
 
     // If any remaining fields have the value "Don't know", replace them with a question mark
     responses.forEach((value, index) => {
