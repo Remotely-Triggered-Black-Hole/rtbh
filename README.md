@@ -2,14 +2,22 @@
 
 The page documents which networks support RTBH filtering, and if so, how it is configured.
 
-Please contribute to this page by adding the details for networks you know about (or to submit corrections), by:
+The aim is provide not only a reference for operators to see how other networks have configured RTBH, but also to use the data as input to a community effort to standardize RTBH configuration across networks. Implementation alignment across networks increases the effectiveness of RTBH filtering for all.
+
+Please contribute to this repository by adding the details for networks you know about (or to submit corrections for existing entries), by:
 
 - Raising a pull request to update [rtbh.csv](rtbh.csv)
-- Or fill out the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScg2Bvr_14onOtZRdoK2SNd0kCHFtqsdw-elsO5miUAO-3zzg/viewform?usp=dialog)
+- Or fill out the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScg2Bvr_14onOtZRdoK2SNd0kCHFtqsdw-elsO5miUAO-3zzg/viewform?usp=dialog) (this will ultimately updates the CSV file via an automated pull request)
+
+The CSV file is the source of truth for the RTBH configuration table.
 
 ## RTBH Configuration by Network
 
 See the [RTBH Table](rtbh.md) for the current state of RTBH configuration by network.
+
+The markdown table is automatically generated from the CSV file.
+
+There is also a JSON version of the data, [rtbh.json](rtbh.json), which is also generated automatically from the CSV file.
 
 ## Table Headers
 

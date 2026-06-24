@@ -7,14 +7,18 @@ on:
       - main
 
 jobs:
-  update-from-gform:
-    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.title, 'gform_pr_')
+  update-on-merged-pr:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Install jq
+        uses: vegardit/gha-setup-jq@v1
+
       - name: Run script to append Gform data to CSV file and remove Gform file
+        if: startsWith(github.event.pull_request.title, 'gform_pr_')
         run: |
           chmod +x ./append-gform-data.sh
           ./append-gform-data.sh
@@ -23,6 +27,11 @@ jobs:
         run: |
           chmod +x ./csv_to_md.sh
           ./csv_to_md.sh
+
+      - name: Run script to regenerate JSON file from CSV file
+        run: |
+          chmod +x ./csv_to_json.sh
+          ./csv_to_json.sh
 
       - name: Commit and push changes
         run: |
