@@ -11,6 +11,7 @@
 | Inter.link | 5405 | Yes | /20 | /32 | /48 | /128 | Yes | Yes | Only if >=/20 or >=/48 | No | No | 65535:666 | Yes |
 | Zayo | 6461 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | 6461:5990 | ? |
 | DE-CIX Frankfurt | 6695 | Yes | Any | Any | Any | Any | Yes | Yes | Yes | Yes | No | 65535:666 | Yes |
+| 6DG | 6908 | No | /32 | /32 | /128 | /128 | No | No | Yes | No | No | 64666:666 | No |
 | LONAP (London Access Point) | 8550 | - | - | - | - | - | - | - | - | - | - | - | - |
 | LINX LON1 (London Internet eXchange) | 8714 | Yes | Any | Any | Any | Any | Yes | Yes | Yes | Yes | No | 65535:666 | Yes |
 | Telxius | 12956 | No | /30 | /32 | /126 | /128 | No | No | No | No | No | 65535:666 | No |
