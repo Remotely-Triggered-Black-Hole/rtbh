@@ -238,6 +238,23 @@
     "Supports Selective RTBH": "-"
   },
   {
+    "Network": "Cloudflare",
+    "ASN": "13335",
+    "Enabled by Default": "-",
+    "V4 Min Length": "-",
+    "V4 Max Length": "-",
+    "V6 Min Length": "-",
+    "V6 Max Length": "-",
+    "IRR Validated": "-",
+    "ROA Validated": "-",
+    "ROA Invalid Accepted": "-",
+    "ROA Covering Origin Validated": "-",
+    "ASPA Validated": "-",
+    "RTBH Community": "-",
+    "Forwards RTBH Routes": "-",
+    "Supports Selective RTBH": "-"
+  },
+  {
     "Network": "BCIX",
     "ASN": "16374",
     "Enabled by Default": "-",

@@ -16,6 +16,7 @@
 | LINX LON1 (London Internet eXchange) | 8714 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Telxius | 12956 | No | 30 | 32 | 126 | 128 | No | No | No | No | No | 65535:666 | No | ? |
 | SOX (Serbian Open eXchange) | 13004 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| Cloudflare | 13335 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | BCIX | 16374 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Marseille | 20717 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Netcom Kassel | 20810 | No | 32 | 32 | 128 | 128 | No | No | Yes | Yes | No | 65535:666 | No | No |
