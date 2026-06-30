@@ -493,6 +493,23 @@
     "Supports Selective RTBH": "-"
   },
   {
+    "Network": "IP-IT-AS",
+    "ASN": "61438",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "22",
+    "V6 Min Length": "128",
+    "V6 Max Length": "29",
+    "IRR Validated": "No",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "65535:666",
+    "Forwards RTBH Routes": "No",
+    "Supports Selective RTBH": "?"
+  },
+  {
     "Network": "MIX (Milan Internet eXchange)",
     "ASN": "61968",
     "Enabled by Default": "-",

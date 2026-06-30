@@ -31,6 +31,7 @@
 | Frys-IX | 56393 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Dusseldorf | 56890 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Peering.cz | 61195 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| IP-IT-AS | 61438 | Yes | 32 | 22 | 128 | 29 | No | No | Yes | No | No | 65535:666 | No | ? |
 | MIX (Milan Internet eXchange) | 61968 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Copenhagen | 201561 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | FrankonIX | 214591 | - | - | - | - | - | - | - | - | - | - | - | - | - |
