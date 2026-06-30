@@ -10,7 +10,7 @@ const GITHUB_REPO  = "rtbh";
 const BASE_BRANCH  = "main";
 const PR_BRANCH    = "gform_pr_"; // Prefix for PRs to add data to repo from Google Form
 const FILE_PATH    = "gform.csv"; // path in repo to create/update
-const FIELD_COUNT  = 14; // number of expected form fields (excludes timestamp and optional fields)
+const FIELD_COUNT  = 15; // number of expected form fields (excludes timestamp and optional fields)
 
 // ─── TRIGGER ──────────────────────────────────────────────────────────────────
 
