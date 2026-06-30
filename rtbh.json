@@ -272,6 +272,23 @@
     "Supports Selective RTBH": "?"
   },
   {
+    "Network": "Netcom Kassel",
+    "ASN": "20810",
+    "Enabled by Default": "No",
+    "V4 Min Length": "No",
+    "V4 Max Length": "32",
+    "V6 Min Length": "32",
+    "V6 Max Length": "128",
+    "IRR Validated": "128",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "No",
+    "ROA Covering Origin Validated": "Yes",
+    "ASPA Validated": "Yes",
+    "RTBH Community": "No",
+    "Forwards RTBH Routes": "65535:666",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "Equinix IXP",
     "ASN": "24115",
     "Enabled by Default": "?",
