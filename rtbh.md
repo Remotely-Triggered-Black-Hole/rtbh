@@ -16,6 +16,7 @@
 | LINX LON1 (London Internet eXchange) | 8714 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Telxius | 12956 | No | 30 | 32 | 126 | 128 | No | No | No | No | No | 65535:666 | No | ? |
 | SOX (Serbian Open eXchange) | 13004 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| BCIX | 16374 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Marseille | 20717 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Equinix IXP | 24115 | ? | 32 | 32 | 128 | 128 | ? | ? | ? | ? | ? | 65535:666 | ? | ? |
 | NL-ix | 24785 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | No | No | 65535:666 | ? | ? |
