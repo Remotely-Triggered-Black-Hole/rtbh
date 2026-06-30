@@ -7,7 +7,7 @@ The aim is provide not only a reference for operators to see how other networks 
 Please contribute to this repository by adding the details for networks you know about (or to submit corrections for existing entries), by:
 
 - Raising a pull request to update [rtbh.csv](rtbh.csv)
-- Or fill out the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScg2Bvr_14onOtZRdoK2SNd0kCHFtqsdw-elsO5miUAO-3zzg/viewform?usp=dialog) (this will ultimately updates the CSV file via an automated pull request)
+- Or fill out the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScg2Bvr_14onOtZRdoK2SNd0kCHFtqsdw-elsO5miUAO-3zzg/viewform?usp=dialog) (this will ultimately update the CSV file via an automated pull request)
 
 The CSV file is the source of truth for the RTBH configuration table.
 
@@ -37,6 +37,7 @@ The table headers are defined as follows:
 - ASPA Validated: Indicates whether the network validates RTBH routes against AS Path Authorizations.
 - RTBH Community: Stores the community used by the network for indicating an RTBH route (e.g. RFC7999 65535:666 or a custom community). Some operators support other communities in addition to the RFC community or their custom community e.g., for blackholing in specific regions. That is not captured here, this field captures what their "global" or most widely reaching community is.
 - Forwards RTBH Routes: Indicates whether the network forwards RTBH routes to their eBGP neighbors (upstreams/downstreams/peers).
+- Supports Selective RTBH: Indicates whether the network supports selective RTBH, i.e., the ability to blackhole a prefix only withing a certain region or in all regions except a certain region.
 
 Meaning of the values in the table:
 
