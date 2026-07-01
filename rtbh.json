@@ -593,5 +593,22 @@
     "RTBH Community": "65535:666",
     "Forwards RTBH Routes": "Yes",
     "Supports Selective RTBH": "?"
+  },
+  {
+    "Network": "Karsolink",
+    "ASN": "204471",
+    "Enabled by Default": "No",
+    "V4 Min Length": "32",
+    "V4 Max Length": "24",
+    "V6 Min Length": "128",
+    "V6 Max Length": "48",
+    "IRR Validated": "No",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "?",
+    "Forwards RTBH Routes": "No",
+    "Supports Selective RTBH": "No"
   }
 ]
