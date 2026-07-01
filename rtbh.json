@@ -204,6 +204,23 @@
     "Supports Selective RTBH": "-"
   },
   {
+    "Network": "oneBackbone",
+    "ASN": "8648",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "128",
+    "V6 Max Length": "128",
+    "IRR Validated": "Yes",
+    "ROA Validated": "Yes",
+    "ROA Invalid Accepted": "No",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "8648:666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "LINX LON1 (London Internet eXchange)",
     "ASN": "8714",
     "Enabled by Default": "Yes",
