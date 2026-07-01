@@ -391,6 +391,23 @@
     "Supports Selective RTBH": "-"
   },
   {
+    "Network": "smartTERRA",
+    "ASN": "35548",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "?",
+    "V6 Max Length": "128",
+    "IRR Validated": "Yes",
+    "ROA Validated": "Yes",
+    "ROA Invalid Accepted": "No",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "35548:666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "Stuttgart-IX",
     "ASN": "41139",
     "Enabled by Default": "-",

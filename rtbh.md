@@ -25,6 +25,7 @@
 | NL-ix | 24785 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | No | No | 65535:666 | ? | ? |
 | KING-EDV | 31451 | Yes | 32 | 32 | 128 | 128 | ? | No | Yes | No | No | 5535:666 | Yes | Yes |
 | STHIX (Stockholm IX) | 33886 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| smartTERRA | 35548 | Yes | 32 | 32 | ? | 128 | Yes | Yes | No | No | No | 35548:666 | Yes | No |
 | Stuttgart-IX | 41139 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Speed-IX | 41441 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | SwissIX | 42476 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
