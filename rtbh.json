@@ -153,6 +153,23 @@
     "Supports Selective RTBH": "?"
   },
   {
+    "Network": "Fink Telecom Services",
+    "ASN": "6775",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "64",
+    "V6 Max Length": "128",
+    "IRR Validated": "Yes",
+    "ROA Validated": "?",
+    "ROA Invalid Accepted": "?",
+    "ROA Covering Origin Validated": "?",
+    "ASPA Validated": "?",
+    "RTBH Community": "65000:666",
+    "Forwards RTBH Routes": "No",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "6DG",
     "ASN": "6908",
     "Enabled by Default": "No",
