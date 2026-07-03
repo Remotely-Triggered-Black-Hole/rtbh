@@ -729,5 +729,22 @@
     "RTBH Community": "65535:666",
     "Forwards RTBH Routes": "Yes",
     "Supports Selective RTBH": "No"
+  },
+  {
+    "Network": "Devantis",
+    "ASN": "206201",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "24",
+    "V4 Max Length": "32",
+    "V6 Min Length": "48",
+    "V6 Max Length": "128",
+    "IRR Validated": "No",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "65535:666",
+    "Forwards RTBH Routes": "No",
+    "Supports Selective RTBH": "No"
   }
 ]
