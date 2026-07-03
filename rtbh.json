@@ -187,6 +187,23 @@
     "Supports Selective RTBH": "?"
   },
   {
+    "Network": "AS-IAG",
+    "ASN": "8495",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "24",
+    "V4 Max Length": "16",
+    "V6 Min Length": "64",
+    "V6 Max Length": "48",
+    "IRR Validated": "Yes",
+    "ROA Validated": "Yes",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "Yes",
+    "ASPA Validated": "Yes",
+    "RTBH Community": "8495:666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "LONAP (London Access Point)",
     "ASN": "8550",
     "Enabled by Default": "-",

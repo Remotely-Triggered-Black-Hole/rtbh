@@ -13,6 +13,7 @@
 | DE-CIX Frankfurt | 6695 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Fink Telecom Services | 6775 | Yes | 32 | 32 | 64 | 128 | Yes | ? | ? | ? | ? | 65000:666 | No | No |
 | 6DG | 6908 | No | 32 | 32 | 128 | 128 | No | No | Yes | No | No | 64666:666 | No | ? |
+| AS-IAG | 8495 | Yes | 24 | 16 | 64 | 48 | Yes | Yes | Yes | Yes | Yes | 8495:666 | Yes | No |
 | LONAP (London Access Point) | 8550 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | oneBackbone | 8648 | Yes | 32 | 32 | 128 | 128 | Yes | Yes | No | No | No | 8648:666 | Yes | No |
 | LINX LON1 (London Internet eXchange) | 8714 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
