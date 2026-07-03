@@ -578,6 +578,23 @@
     "Supports Selective RTBH": "?"
   },
   {
+    "Network": "level66.network",
+    "ASN": "56381",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "128",
+    "V6 Max Length": "128",
+    "IRR Validated": "Yes",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "?",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "65535:666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "Frys-IX",
     "ASN": "56393",
     "Enabled by Default": "-",
