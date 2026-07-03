@@ -493,6 +493,23 @@
     "Supports Selective RTBH": "Yes"
   },
   {
+    "Network": "NorthC",
+    "ASN": "42346",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "128",
+    "V6 Max Length": "128",
+    "IRR Validated": "Yes",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "Yes",
+    "ASPA Validated": "No",
+    "RTBH Community": "42346:666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "SwissIX",
     "ASN": "42476",
     "Enabled by Default": "Yes",

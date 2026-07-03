@@ -31,6 +31,7 @@
 | Stuttgart-IX | 41139 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Speed-IX | 41441 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | FAELIX | 41495 | Yes | 32 | 24 | 128 | 48 | Yes | No | Yes | No | No | 41495:666 | Yes | Yes |
+| NorthC | 42346 | Yes | 32 | 32 | 128 | 128 | Yes | No | Yes | Yes | No | 42346:666 | Yes | No |
 | SwissIX | 42476 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | DE-CIX Hamburg | 43252 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | NIX.CZ | 47200 | Yes | 8 | 32 | 16 | 128 | ? | ? | ? | ? | ? | 65535:666 | ? | ? |
