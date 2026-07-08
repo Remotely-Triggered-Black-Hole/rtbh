@@ -29,6 +29,7 @@
 | KING-EDV | 31451 | Yes | 32 | 32 | 128 | 128 | ? | No | Yes | No | No | 5535:666 | Yes | Yes |
 | STHIX (Stockholm IX) | 33886 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | smartTERRA | 35548 | Yes | 32 | 32 | ? | 128 | Yes | Yes | No | No | No | 35548:666 | Yes | No |
+| Frank Habicht | 37084 | No | 1 | 32 | 1 | 128 | Yes | No | Yes | No | No | 37084:666 | Yes | No |
 | Stuttgart-IX | 41139 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Speed-IX | 41441 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | FAELIX | 41495 | Yes | 32 | 24 | 128 | 48 | Yes | No | Yes | No | No | 41495:666 | Yes | Yes |
