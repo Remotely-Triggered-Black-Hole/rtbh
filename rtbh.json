@@ -765,6 +765,23 @@
     "Supports Selective RTBH": "?"
   },
   {
+    "Network": "nLighten",
+    "ASN": "45014",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "128",
+    "V6 Max Length": "128",
+    "IRR Validated": "Yes",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "No",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "45014:666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "NIX.CZ",
     "ASN": "47200",
     "Enabled by Default": "Yes",
