@@ -595,6 +595,23 @@
     "Supports Selective RTBH": "No"
   },
   {
+    "Network": "MDNET",
+    "ASN": "40138",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "24",
+    "V4 Max Length": "32",
+    "V6 Min Length": "48",
+    "V6 Max Length": "128",
+    "IRR Validated": "Yes",
+    "ROA Validated": "Yes",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "Yes",
+    "ASPA Validated": "No",
+    "RTBH Community": "40138:666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "Alwyzon",
     "ASN": "40994",
     "Enabled by Default": "Yes",
