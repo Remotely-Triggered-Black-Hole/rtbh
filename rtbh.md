@@ -20,6 +20,7 @@
 | oneBackbone | 8648 | Yes | 32 | 32 | 128 | 128 | Yes | Yes | No | No | No | 8648:666 | Yes | No |
 | LINX LON1 (London Internet eXchange) | 8714 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | MRNET | 10965 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| Seeweb | 12637 | Yes | 32 | 32 | 128 | 128 | Yes | No | Yes | No | No | 12637:666 | Yes | No |
 | Telxius | 12956 | No | 30 | 32 | 126 | 128 | No | No | No | No | No | 65535:666 | No | ? |
 | SOX (Serbian Open eXchange) | 13004 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Cloudflare | 13335 | - | - | - | - | - | - | - | - | - | - | - | - | - |

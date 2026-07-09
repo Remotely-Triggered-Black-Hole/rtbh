@@ -306,6 +306,23 @@
     "Supports Selective RTBH": "-"
   },
   {
+    "Network": "Seeweb",
+    "ASN": "12637",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "128",
+    "V6 Max Length": "128",
+    "IRR Validated": "Yes",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "12637:666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "Telxius",
     "ASN": "12956",
     "Enabled by Default": "No",
