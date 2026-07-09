@@ -2,6 +2,8 @@
 
 | Network | ASN | Enabled by Default | V4 Min Length | V4 Max Length | V6 Min Length | V6 Max Length | IRR Validated | ROA Validated | ROA Invalid Accepted | ROA Covering Origin Validated | ASPA Validated | RTBH Community | Forwards RTBH Routes | Supports Selective RTBH |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Pacific Northwest Gigapop | 101 | Yes | 1 | 32 | 1 | 64 | Yes | No | Yes | No | No | 101:13000 | Yes | No |
+| MERLIN-02 | 1048 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | VIX (Vienna Internet eXchange) | 1121 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Arelion | 1299 | No | 8 | 32 | 16 | 128 | Yes | Only if <= /24 or <= /48 | Only if >=/25 or >=/49 | No | No | 65535:666 | No | ? |
 | NTT | 2914 | No | 32 | 32 | 128 | 128 | Yes | No | No | No | No | 2914:666 | No | ? |
@@ -12,31 +14,40 @@
 | Zayo | 6461 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | 6461:5990 | ? | ? |
 | DE-CIX Frankfurt | 6695 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Fink Telecom Services | 6775 | Yes | 32 | 32 | 64 | 128 | Yes | ? | ? | ? | ? | 65000:666 | No | No |
+| AMS-IX | 6777 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | 6DG | 6908 | No | 32 | 32 | 128 | 128 | No | No | Yes | No | No | 64666:666 | No | ? |
 | IPng Networks | 8298 | Yes | 24 | 32 | 48 | 128 | Yes | Yes | No | Yes | No | 65535:666 | No | No |
-| AS-IAG | 8495 | Yes | 24 | 16 | 64 | 48 | Yes | Yes | Yes | Yes | Yes | 8495:666 | Yes | No |
+| AS-IAG | 8495 | Yes | 16 | 24 | 48 | 64 | Yes | Yes | Yes | Yes | Yes | 8495:666 | Yes | No |
 | LONAP (London Access Point) | 8550 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | oneBackbone | 8648 | Yes | 32 | 32 | 128 | 128 | Yes | Yes | No | No | No | 8648:666 | Yes | No |
 | LINX LON1 (London Internet eXchange) | 8714 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
+| MRNET | 10965 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| Seeweb | 12637 | Yes | 32 | 32 | 128 | 128 | Yes | No | Yes | No | No | 12637:666 | Yes | No |
 | Telxius | 12956 | No | 30 | 32 | 126 | 128 | No | No | No | No | No | 65535:666 | No | ? |
 | SOX (Serbian Open eXchange) | 13004 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Cloudflare | 13335 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | BCIX | 16374 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| MBIX | 16395 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| MERLIN | 16796 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Marseille | 20717 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Netcom Kassel | 20810 | No | 32 | 32 | 128 | 128 | No | No | Yes | Yes | No | 65535:666 | No | No |
+| Shasta COE | 23483 | No | 32 | 32 | 64 | 64 | Yes | Yes | Yes | Yes | No | 65535:666 | No | No |
 | Equinix IXP | 24115 | ? | 32 | 32 | 128 | 128 | ? | ? | ? | ? | ? | 65535:666 | ? | ? |
 | NL-ix | 24785 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | No | No | 65535:666 | ? | ? |
+| CMC Networks | 25818 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | KING-EDV | 31451 | Yes | 32 | 32 | 128 | 128 | ? | No | Yes | No | No | 5535:666 | Yes | Yes |
 | STHIX (Stockholm IX) | 33886 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | smartTERRA | 35548 | Yes | 32 | 32 | ? | 128 | Yes | Yes | No | No | No | 35548:666 | Yes | No |
 | Frank Habicht | 37084 | No | 1 | 32 | 1 | 128 | Yes | No | Yes | No | No | 37084:666 | Yes | No |
+| MDNET | 40138 | Yes | 24 | 32 | 48 | 128 | Yes | Yes | Yes | Yes | No | 40138:666 | Yes | No |
+| Alwyzon | 40994 | Yes | 32 | 32 | 64 | 128 | Yes | No | Yes | No | No | 65535:666 | Yes | No |
 | Stuttgart-IX | 41139 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Speed-IX | 41441 | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| FAELIX | 41495 | Yes | 32 | 24 | 128 | 48 | Yes | No | Yes | No | No | 41495:666 | Yes | Yes |
+| FAELIX | 41495 | Yes | 24 | 32 | 48 | 128 | Yes | No | Yes | No | No | 41495:666 | Yes | Yes |
 | NorthC | 42346 | Yes | 32 | 32 | 128 | 128 | Yes | No | Yes | Yes | No | 42346:666 | Yes | No |
 | SwissIX | 42476 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | DE-CIX Hamburg | 43252 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
-| NIX.CZ | 47200 | Yes | 8 | 32 | 16 | 128 | ? | ? | ? | ? | ? | 65535:666 | ? | ? |
+| NIX.CZ | 47200 | Yes | 1 | 32 | 1 | 128 | Yes | No | Yes | No | Yes | 65535:666 | Yes | Yes |
 | DE-CIX Munich | 47228 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | DE-CIX Madrid | 48793 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | NetNod | 52005 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | ? | No | No | 65535:666 | Yes | ? |
@@ -44,10 +55,13 @@
 | Frys-IX | 56393 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Dusseldorf | 56890 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Peering.cz | 61195 | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| IP-IT-AS | 61438 | Yes | 32 | 22 | 128 | 29 | No | No | Yes | No | No | 65535:666 | No | ? |
+| IP-IT-AS | 61438 | Yes | 22 | 32 | 29 | 128 | No | No | Yes | No | No | 65535:666 | No | ? |
+| Viva Tecnologia Telecomunica??es | 61618 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | MIX (Milan Internet eXchange) | 61968 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Copenhagen | 201561 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
-| Karsolink | 204471 | No | 32 | 24 | 128 | 48 | No | No | Yes | No | No | ? | No | No |
+| Karsolink | 204471 | No | 24 | 32 | 48 | 128 | No | No | Yes | No | No | ? | No | No |
 | Medialine EuroTrade AG | 205614 | Yes | 32 | 32 | 128 | 128 | Yes | No | No | No | No | 65535:666 | Yes | No |
 | Devantis | 206201 | Yes | 24 | 32 | 48 | 128 | No | No | Yes | No | No | 65535:666 | No | No |
 | FrankonIX | 214591 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| MBIX Services | 395611 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+
