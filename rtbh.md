@@ -23,6 +23,7 @@
 | SOX (Serbian Open eXchange) | 13004 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Cloudflare | 13335 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | BCIX | 16374 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| MERLIN | 16796 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Marseille | 20717 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Netcom Kassel | 20810 | No | 32 | 32 | 128 | 128 | No | No | Yes | Yes | No | 65535:666 | No | No |
 | Shasta COE | 23483 | No | 32 | 32 | 64 | 64 | Yes | Yes | Yes | Yes | No | 65535:666 | No | No |
