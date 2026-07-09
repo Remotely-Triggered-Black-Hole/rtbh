@@ -57,3 +57,4 @@
 | Medialine EuroTrade AG | 205614 | Yes | 32 | 32 | 128 | 128 | Yes | No | No | No | No | 65535:666 | Yes | No |
 | Devantis | 206201 | Yes | 24 | 32 | 48 | 128 | No | No | Yes | No | No | 65535:666 | No | No |
 | FrankonIX | 214591 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| MBIX Services | 395611 | - | - | - | - | - | - | - | - | - | - | - | - | - |
