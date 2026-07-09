@@ -17,7 +17,7 @@
 | AMS-IX | 6777 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | 6DG | 6908 | No | 32 | 32 | 128 | 128 | No | No | Yes | No | No | 64666:666 | No | ? |
 | IPng Networks | 8298 | Yes | 24 | 32 | 48 | 128 | Yes | Yes | No | Yes | No | 65535:666 | No | No |
-| AS-IAG | 8495 | Yes | 24 | 16 | 64 | 48 | Yes | Yes | Yes | Yes | Yes | 8495:666 | Yes | No |
+| AS-IAG | 8495 | Yes | 16 | 24 | 48 | 64 | Yes | Yes | Yes | Yes | Yes | 8495:666 | Yes | No |
 | LONAP (London Access Point) | 8550 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | oneBackbone | 8648 | Yes | 32 | 32 | 128 | 128 | Yes | Yes | No | No | No | 8648:666 | Yes | No |
 | LINX LON1 (London Internet eXchange) | 8714 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
@@ -43,11 +43,11 @@
 | Alwyzon | 40994 | Yes | 32 | 32 | 64 | 128 | Yes | No | Yes | No | No | 65535:666 | Yes | No |
 | Stuttgart-IX | 41139 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Speed-IX | 41441 | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| FAELIX | 41495 | Yes | 32 | 24 | 128 | 48 | Yes | No | Yes | No | No | 41495:666 | Yes | Yes |
+| FAELIX | 41495 | Yes | 24 | 32 | 48 | 128 | Yes | No | Yes | No | No | 41495:666 | Yes | Yes |
 | NorthC | 42346 | Yes | 32 | 32 | 128 | 128 | Yes | No | Yes | Yes | No | 42346:666 | Yes | No |
 | SwissIX | 42476 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | DE-CIX Hamburg | 43252 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
-| NIX.CZ | 47200 | Yes | 8 | 32 | 16 | 128 | ? | ? | ? | ? | ? | 65535:666 | ? | ? |
+| NIX.CZ | 47200 | Yes | 1 | 32 | 1 | 128 | Yes | No | Yes | No | Yes | 65535:666 | Yes | Yes |
 | DE-CIX Munich | 47228 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | DE-CIX Madrid | 48793 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | NetNod | 52005 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | ? | No | No | 65535:666 | Yes | ? |
@@ -55,12 +55,13 @@
 | Frys-IX | 56393 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Dusseldorf | 56890 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Peering.cz | 61195 | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| IP-IT-AS | 61438 | Yes | 32 | 22 | 128 | 29 | No | No | Yes | No | No | 65535:666 | No | ? |
+| IP-IT-AS | 61438 | Yes | 22 | 32 | 29 | 128 | No | No | Yes | No | No | 65535:666 | No | ? |
 | Viva Tecnologia Telecomunica??es | 61618 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | MIX (Milan Internet eXchange) | 61968 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Copenhagen | 201561 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
-| Karsolink | 204471 | No | 32 | 24 | 128 | 48 | No | No | Yes | No | No | ? | No | No |
+| Karsolink | 204471 | No | 24 | 32 | 48 | 128 | No | No | Yes | No | No | ? | No | No |
 | Medialine EuroTrade AG | 205614 | Yes | 32 | 32 | 128 | 128 | Yes | No | No | No | No | 65535:666 | Yes | No |
 | Devantis | 206201 | Yes | 24 | 32 | 48 | 128 | No | No | Yes | No | No | 65535:666 | No | No |
 | FrankonIX | 214591 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | MBIX Services | 395611 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+
