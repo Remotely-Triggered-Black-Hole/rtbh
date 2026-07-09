@@ -53,6 +53,7 @@
 | DE-CIX Dusseldorf | 56890 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Peering.cz | 61195 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | IP-IT-AS | 61438 | Yes | 32 | 22 | 128 | 29 | No | No | Yes | No | No | 65535:666 | No | ? |
+| Viva Tecnologia Telecomunica??es | 61618 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | MIX (Milan Internet eXchange) | 61968 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Copenhagen | 201561 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Karsolink | 204471 | No | 32 | 24 | 128 | 48 | No | No | Yes | No | No | ? | No | No |
