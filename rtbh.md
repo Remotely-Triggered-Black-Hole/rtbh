@@ -2,6 +2,7 @@
 
 | Network | ASN | Enabled by Default | V4 Min Length | V4 Max Length | V6 Min Length | V6 Max Length | IRR Validated | ROA Validated | ROA Invalid Accepted | ROA Covering Origin Validated | ASPA Validated | RTBH Community | Forwards RTBH Routes | Supports Selective RTBH |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Pacific Northwest Gigapop | 101 | Yes | 1 | 32 | 1 | 64 | Yes | No | Yes | No | No | 101:13000 | Yes | No |
 | MERLIN-02 | 1048 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | VIX (Vienna Internet eXchange) | 1121 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Arelion | 1299 | No | 8 | 32 | 16 | 128 | Yes | Only if <= /24 or <= /48 | Only if >=/25 or >=/49 | No | No | 65535:666 | No | ? |

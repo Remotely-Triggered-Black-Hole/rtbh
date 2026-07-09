@@ -1,5 +1,22 @@
 [
   {
+    "Network": "Pacific Northwest Gigapop",
+    "ASN": "101",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "1",
+    "V4 Max Length": "32",
+    "V6 Min Length": "1",
+    "V6 Max Length": "64",
+    "IRR Validated": "Yes",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "101:13000",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "MERLIN-02",
     "ASN": "1048",
     "Enabled by Default": "-",
