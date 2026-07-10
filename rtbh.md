@@ -2,6 +2,7 @@
 
 | Network | ASN | Enabled by Default | V4 Min Length | V4 Max Length | V6 Min Length | V6 Max Length | IRR Validated | ROA Validated | ROA Invalid Accepted | ROA Covering Origin Validated | ASPA Validated | RTBH Community | Forwards RTBH Routes | Supports Selective RTBH |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |
 | Pacific Northwest Gigapop | 101 | Yes | 1 | 32 | 1 | 64 | Yes | No | Yes | No | No | 101:13000 | Yes | No |
 | MERLIN-02 | 1048 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | VIX (Vienna Internet eXchange) | 1121 | - | - | - | - | - | - | - | - | - | - | - | - | - |
@@ -60,9 +61,9 @@
 | Viva Tecnologia Telecomunica??es | 61618 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | MIX (Milan Internet eXchange) | 61968 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | DE-CIX Copenhagen | 201561 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
+| PacketHarbor | 202142 | Yes | 16 | 32 | 48 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | No | No |
 | Karsolink | 204471 | No | 24 | 32 | 48 | 128 | No | No | Yes | No | No | ? | No | No |
 | Medialine EuroTrade AG | 205614 | Yes | 32 | 32 | 128 | 128 | Yes | No | No | No | No | 65535:666 | Yes | No |
 | Devantis | 206201 | Yes | 24 | 32 | 48 | 128 | No | No | Yes | No | No | 65535:666 | No | No |
 | FrankonIX | 214591 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | MBIX Services | 395611 | - | - | - | - | - | - | - | - | - | - | - | - | - |
-
