@@ -153,6 +153,23 @@
     "Supports Selective RTBH": "?"
   },
   {
+    "Network": "Vocus",
+    "ASN": "4826",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "128",
+    "V6 Max Length": "128",
+    "IRR Validated": "?",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "4826:666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "Inter.link",
     "ASN": "5405",
     "Enabled by Default": "Yes",
