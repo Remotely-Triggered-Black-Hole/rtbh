@@ -1071,6 +1071,23 @@
     "Supports Selective RTBH": "No"
   },
   {
+    "Network": "RoyaleHosting B.V.",
+    "ASN": "212477",
+    "Enabled by Default": "No",
+    "V4 Min Length": "?",
+    "V4 Max Length": "?",
+    "V6 Min Length": "?",
+    "V6 Max Length": "?",
+    "IRR Validated": "?",
+    "ROA Validated": "?",
+    "ROA Invalid Accepted": "?",
+    "ROA Covering Origin Validated": "?",
+    "ASPA Validated": "?",
+    "RTBH Community": "65535:666",
+    "Forwards RTBH Routes": "?",
+    "Supports Selective RTBH": "?"
+  },
+  {
     "Network": "FrankonIX",
     "ASN": "214591",
     "Enabled by Default": "-",
