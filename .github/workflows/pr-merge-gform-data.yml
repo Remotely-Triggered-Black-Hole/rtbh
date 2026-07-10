@@ -23,6 +23,10 @@ jobs:
           chmod +x ./append-gform-data.sh
           ./append-gform-data.sh
 
+      - name: Remove blank lines from CSV file
+        run: |
+          sed -i '/^$/d' ./rtbh.csv
+
       - name: Run script to regenerate Markdown table from CSV file
         run: |
           chmod +x ./csv_to_md.sh
