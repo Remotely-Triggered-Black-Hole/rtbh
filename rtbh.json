@@ -272,6 +272,23 @@
     "Supports Selective RTBH": "?"
   },
   {
+    "Network": "Telef?nica M?xico",
+    "ASN": "7438",
+    "Enabled by Default": "No",
+    "V4 Min Length": "24",
+    "V4 Max Length": "24",
+    "V6 Min Length": "?",
+    "V6 Max Length": "?",
+    "IRR Validated": "No",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "7438:666",
+    "Forwards RTBH Routes": "?",
+    "Supports Selective RTBH": "?"
+  },
+  {
     "Network": "IPng Networks",
     "ASN": "8298",
     "Enabled by Default": "Yes",
