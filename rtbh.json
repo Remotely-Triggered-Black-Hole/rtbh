@@ -629,6 +629,23 @@
     "Supports Selective RTBH": "Yes"
   },
   {
+    "Network": "Wikstrom Telephone Company",
+    "ASN": "33362",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "1",
+    "V4 Max Length": "32",
+    "V6 Min Length": "1",
+    "V6 Max Length": "128",
+    "IRR Validated": "No",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "65535:666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "STHIX (Stockholm IX)",
     "ASN": "33886",
     "Enabled by Default": "-",

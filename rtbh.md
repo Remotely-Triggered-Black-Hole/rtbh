@@ -39,6 +39,7 @@
 | NL-ix | 24785 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | No | No | 65535:666 | ? | ? |
 | CMC Networks | 25818 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | KING-EDV | 31451 | Yes | 32 | 32 | 128 | 128 | ? | No | Yes | No | No | 5535:666 | Yes | Yes |
+| Wikstrom Telephone Company | 33362 | Yes | 1 | 32 | 1 | 128 | No | No | Yes | No | No | 65535:666 | Yes | No |
 | STHIX (Stockholm IX) | 33886 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | smartTERRA | 35548 | Yes | 32 | 32 | ? | 128 | Yes | Yes | No | No | No | 35548:666 | Yes | No |
 | Frank Habicht | 37084 | No | 1 | 32 | 1 | 128 | Yes | No | Yes | No | No | 37084:666 | Yes | No |
