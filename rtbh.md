@@ -54,6 +54,7 @@
 | NIX.CZ | 47200 | Yes | 1 | 32 | 1 | 128 | Yes | No | Yes | No | Yes | 65535:666 | Yes | Yes |
 | DE-CIX Munich | 47228 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | DE-CIX Madrid | 48793 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
+| MAINPORT Peer-Exchange | 50566 | Yes | 32 | 32 | 128 | 128 | Yes | No | Yes | No | No | 65535:666 | Yes | No |
 | NetNod | 52005 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | ? | No | No | 65535:666 | Yes | ? |
 | level66.network | 56381 | Yes | 32 | 32 | 128 | 128 | Yes | No | ? | No | No | 65535:666 | Yes | No |
 | Frys-IX | 56393 | - | - | - | - | - | - | - | - | - | - | - | - | - |
