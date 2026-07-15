@@ -697,6 +697,23 @@
     "Supports Selective RTBH": "No"
   },
   {
+    "Network": "REANNZ",
+    "ASN": "38022",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "128",
+    "V6 Max Length": "128",
+    "IRR Validated": "No",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "38022:6",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "MDNET",
     "ASN": "40138",
     "Enabled by Default": "Yes",
