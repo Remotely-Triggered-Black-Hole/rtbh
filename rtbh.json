@@ -167,7 +167,7 @@
     "ASPA Validated": "No",
     "RTBH Community": "65535:666",
     "Forwards RTBH Routes": "Yes",
-    "Supports Selective RTBH": "?"
+    "Supports Selective RTBH": "Yes"
   },
   {
     "Network": "Zayo",
