@@ -8,7 +8,7 @@
 | Arelion | 1299 | No | 8 | 32 | 16 | 128 | Yes | Only if <= /24 or <= /48 | Only if >=/25 or >=/49 | No | No | 65535:666 | No | ? |
 | NTT | 2914 | No | 32 | 32 | 128 | 128 | Yes | No | No | No | No | 2914:666 | No | ? |
 | GTT | 3257 | ? | 30 | 32 | 64 | 128 | Yes | Yes | ? | No | No | 3257:2666 | No | ? |
-| Deutsche Telekom | 3320 | No | 8 | 32 | 16 | 128 | Yes | No | No | No | No | 65000:0 | No | ? |
+| Deutsche Telekom | 3320 | No | 1 | 32 | 1 | 128 | Yes | No | Yes | No | No | 65000:0 | No | No |
 | Colt | 3356 | No | 8 | 32 | 16 | 128 | Yes | No | Yes | No | No | 3356:9999 | ? | ? |
 | Vocus | 4826 | Yes | 32 | 32 | 128 | 128 | ? | No | Yes | No | No | 4826:666 | Yes | No |
 | Inter.link | 5405 | Yes | 20 | 32 | 48 | 128 | Yes | Yes | Only if >=/20 or >=/48 | No | No | 65535:666 | Yes | ? |
@@ -73,3 +73,4 @@
 | RoyaleHosting B.V. | 212477 | No | ? | ? | ? | ? | ? | ? | ? | ? | ? | 65535:666 | ? | ? |
 | FrankonIX | 214591 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | MBIX Services | 395611 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+
