@@ -1,10 +1,13 @@
 name: PR Merge Gform Data
 
 on:
-  pull_request:
+  pull_request_target:
     types: [closed]
     branches:
       - main
+
+permissions:
+  contents: write
 
 jobs:
   update-on-merged-pr:
@@ -13,6 +16,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Install jq
         uses: vegardit/gha-setup-jq@v1
