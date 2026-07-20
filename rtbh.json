@@ -82,7 +82,7 @@
     "ASPA Validated": "No",
     "RTBH Community": "2914:666",
     "Forwards RTBH Routes": "No",
-    "Supports Selective RTBH": "?"
+    "Supports Selective RTBH": "yes"
   },
   {
     "Network": "GTT",
@@ -119,7 +119,7 @@
     "Supports Selective RTBH": "No"
   },
   {
-    "Network": "Colt",
+    "Network": "Lumen",
     "ASN": "3356",
     "Enabled by Default": "No",
     "V4 Min Length": "8",
@@ -1192,6 +1192,23 @@
   {
     "Network": "FrankonIX",
     "ASN": "214591",
+    "Enabled by Default": "-",
+    "V4 Min Length": "-",
+    "V4 Max Length": "-",
+    "V6 Min Length": "-",
+    "V6 Max Length": "-",
+    "IRR Validated": "-",
+    "ROA Validated": "-",
+    "ROA Invalid Accepted": "-",
+    "ROA Covering Origin Validated": "-",
+    "ASPA Validated": "-",
+    "RTBH Community": "-",
+    "Forwards RTBH Routes": "-",
+    "Supports Selective RTBH": "-"
+  },
+  {
+    "Network": "MBIX Services",
+    "ASN": "395611",
     "Enabled by Default": "-",
     "V4 Min Length": "-",
     "V4 Max Length": "-",
