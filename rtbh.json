@@ -1222,5 +1222,22 @@
     "RTBH Community": "-",
     "Forwards RTBH Routes": "-",
     "Supports Selective RTBH": "-"
+  },
+  {
+    "Network": "COLT",
+    "ASN": "8820",
+    "Enabled by Default": "?",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "?",
+    "V6 Max Length": "?",
+    "IRR Validated": "?",
+    "ROA Validated": "?",
+    "ROA Invalid Accepted": "?",
+    "ROA Covering Origin Validated": "?",
+    "ASPA Validated": "?",
+    "RTBH Community": "8220:63999",
+    "Forwards RTBH Routes": "no",
+    "Supports Selective RTBH": "no"
   }
 ]
