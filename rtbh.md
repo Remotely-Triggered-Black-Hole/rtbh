@@ -24,6 +24,7 @@
 | LONAP (London Access Point) | 8550 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | oneBackbone | 8648 | Yes | 32 | 32 | 128 | 128 | Yes | Yes | No | No | No | 8648:666 | Yes | No |
 | LINX LON1 (London Internet eXchange) | 8714 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
+| COLT | 8820 | ? | 32 | 32 | ? | ? | ? | ? | ? | ? | ? | 8220:63999 | no | no |
 | MRNET | 10965 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Seeweb | 12637 | Yes | 32 | 32 | 128 | 128 | Yes | No | Yes | No | No | 12637:666 | Yes | No |
 | Telxius | 12956 | No | 30 | 32 | 126 | 128 | No | No | No | No | No | 65535:666 | No | ? |
@@ -57,6 +58,7 @@
 | NIX.CZ | 47200 | Yes | 1 | 32 | 1 | 128 | Yes | No | Yes | No | Yes | 65535:666 | Yes | Yes |
 | DE-CIX Munich | 47228 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | DE-CIX Madrid | 48793 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
+| Asimo Networks BV | 49127 | No | 32 | 32 | 128 | 128 | Yes | No | Yes | No | No | 49127:666 | No | No |
 | MAINPORT Peer-Exchange | 50566 | Yes | 32 | 32 | 128 | 128 | Yes | No | Yes | No | No | 65535:666 | Yes | No |
 | NetNod | 52005 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | ? | No | No | 65535:666 | Yes | ? |
 | level66.network | 56381 | Yes | 32 | 32 | 128 | 128 | Yes | No | ? | No | No | 65535:666 | Yes | No |
@@ -74,5 +76,3 @@
 | RoyaleHosting B.V. | 212477 | No | ? | ? | ? | ? | ? | ? | ? | ? | ? | 65535:666 | ? | ? |
 | FrankonIX | 214591 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | MBIX Services | 395611 | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| COLT | 8820 | ? | 32 | 32 | ? | ? | ? | ? | ? | ? | ? | 8220:63999 | no | no |
-
