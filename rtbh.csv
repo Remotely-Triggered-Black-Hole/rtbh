@@ -66,6 +66,7 @@ Peering.cz,61195,-,-,-,-,-,-,-,-,-,-,-,-,-
 IP-IT-AS,61438,Yes,22,32,29,128,No,No,Yes,No,No,65535:666,No,?
 Viva Tecnologia Telecomunica??es,61618,-,-,-,-,-,-,-,-,-,-,-,-,-
 MIX (Milan Internet eXchange),61968,-,-,-,-,-,-,-,-,-,-,-,-,-
+wireless connect,62129,No,24,32,48,64,Yes,No,?,?,No,62129:666,No,?
 DE-CIX Copenhagen,201561,Yes,8,32,16,128,Yes,Yes,Yes,Yes,No,65535:666,Yes,?
 PacketHarbor,202142,Yes,16,32,48,128,Yes,Yes,Yes,Yes,No,65535:666,No,No
 Karsolink,204471,No,24,32,48,128,No,No,Yes,No,No,?,No,No

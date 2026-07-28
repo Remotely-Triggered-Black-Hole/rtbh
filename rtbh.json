@@ -1139,6 +1139,23 @@
     "Supports Selective RTBH": "-"
   },
   {
+    "Network": "wireless connect",
+    "ASN": "62129",
+    "Enabled by Default": "No",
+    "V4 Min Length": "24",
+    "V4 Max Length": "32",
+    "V6 Min Length": "48",
+    "V6 Max Length": "64",
+    "IRR Validated": "Yes",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "?",
+    "ROA Covering Origin Validated": "?",
+    "ASPA Validated": "No",
+    "RTBH Community": "62129:666",
+    "Forwards RTBH Routes": "No",
+    "Supports Selective RTBH": "?"
+  },
+  {
     "Network": "DE-CIX Copenhagen",
     "ASN": "201561",
     "Enabled by Default": "Yes",
