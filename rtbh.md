@@ -11,6 +11,7 @@
 | GTT | 3257 | ? | 30 | 32 | 64 | 128 | Yes | Yes | ? | No | No | 3257:2666 | No | ? |
 | Deutsche Telekom | 3320 | No | 1 | 32 | 1 | 128 | Yes | No | Yes | No | No | 65000:0 | No | No |
 | Lumen | 3356 | No | 8 | 32 | 16 | 128 | Yes | No | Yes | No | No | 3356:9999 | ? | ? |
+| Telstra International | 4637 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Vocus | 4826 | Yes | 32 | 32 | 128 | 128 | ? | No | Yes | No | No | 4826:666 | Yes | No |
 | Inter.link | 5405 | Yes | 20 | 32 | 48 | 128 | Yes | Yes | Only if >=/20 or >=/48 | No | No | 65535:666 | Yes | Yes |
 | Zayo | 6461 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | 6461:5990 | ? | ? |
