@@ -5,6 +5,7 @@
 | Pacific Northwest Gigapop | 101 | Yes | 1 | 32 | 1 | 64 | Yes | No | Yes | No | No | 101:13000 | Yes | No |
 | MERLIN-02 | 1048 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | VIX (Vienna Internet eXchange) | 1121 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| Telstra | 1221 | Yes | 16 | 32 | 32 | 128 | ? | ? | ? | ? | No | 1221:1666 | Yes | No |
 | Arelion | 1299 | No | 8 | 32 | 16 | 128 | Yes | Only if <= /24 or <= /48 | Only if >=/25 or >=/49 | No | No | 65535:666 | No | ? |
 | NTT | 2914 | No | 32 | 32 | 128 | 128 | Yes | No | No | No | No | 2914:666 | No | yes |
 | GTT | 3257 | ? | 30 | 32 | 64 | 128 | Yes | Yes | ? | No | No | 3257:2666 | No | ? |

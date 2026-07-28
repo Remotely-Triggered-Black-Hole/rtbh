@@ -51,6 +51,23 @@
     "Supports Selective RTBH": "-"
   },
   {
+    "Network": "Telstra",
+    "ASN": "1221",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "16",
+    "V4 Max Length": "32",
+    "V6 Min Length": "32",
+    "V6 Max Length": "128",
+    "IRR Validated": "?",
+    "ROA Validated": "?",
+    "ROA Invalid Accepted": "?",
+    "ROA Covering Origin Validated": "?",
+    "ASPA Validated": "No",
+    "RTBH Community": "1221:1666",
+    "Forwards RTBH Routes": "Yes",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "Arelion",
     "ASN": "1299",
     "Enabled by Default": "No",
