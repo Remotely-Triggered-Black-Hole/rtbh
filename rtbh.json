@@ -17,6 +17,23 @@
     "Supports Selective RTBH": "No"
   },
   {
+    "Network": "Cogent Communications",
+    "ASN": "174",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "?",
+    "V4 Max Length": "32",
+    "V6 Min Length": "?",
+    "V6 Max Length": "?",
+    "IRR Validated": "Yes",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "?",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "65535:666",
+    "Forwards RTBH Routes": "No",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "MERLIN-02",
     "ASN": "1048",
     "Enabled by Default": "-",
