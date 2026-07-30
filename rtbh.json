@@ -595,6 +595,23 @@
     "Supports Selective RTBH": "-"
   },
   {
+    "Network": "SPECTRUM-AU",
+    "ASN": "17559",
+    "Enabled by Default": "Yes",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "128",
+    "V6 Max Length": "128",
+    "IRR Validated": "No",
+    "ROA Validated": "No",
+    "ROA Invalid Accepted": "No",
+    "ROA Covering Origin Validated": "Yes",
+    "ASPA Validated": "No",
+    "RTBH Community": "17559:666",
+    "Forwards RTBH Routes": "No",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "Vultr",
     "ASN": "20473",
     "Enabled by Default": "Yes",

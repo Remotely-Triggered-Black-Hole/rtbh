@@ -37,6 +37,7 @@
 | BCIX | 16374 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | MBIX | 16395 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | MERLIN | 16796 | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| SPECTRUM-AU | 17559 | Yes | 32 | 32 | 128 | 128 | No | No | No | Yes | No | 17559:666 | No | No |
 | Vultr | 20473 | Yes | 25 | 32 | 49 | 128 | Yes | No | Yes | No | No | 65535:666 | Yes | No |
 | DE-CIX Marseille | 20717 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Netcom Kassel | 20810 | No | 32 | 32 | 128 | 128 | No | No | Yes | Yes | No | 65535:666 | No | No |
