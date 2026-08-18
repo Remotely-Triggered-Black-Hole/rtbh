@@ -4,6 +4,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Pacific Northwest Gigapop | 101 | Yes | 1 | 32 | 1 | 64 | Yes | No | Yes | No | No | 101:13000 | Yes | No |
 | Cogent Communications | 174 | Yes | ? | 32 | ? | ? | Yes | No | ? | No | No | 65535:666 | No | No |
+| SWITCH | 559 | Yes | 32 | 32 | 128 | 128 | No | No | Yes | No | No | 559:666 | Yes | No |
 | MERLIN-02 | 1048 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | VIX (Vienna Internet eXchange) | 1121 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Telstra | 1221 | Yes | 16 | 32 | 32 | 128 | ? | ? | ? | ? | No | 1221:1666 | Yes | No |
