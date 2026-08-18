@@ -68,6 +68,7 @@
 | DE-CIX Munich | 47228 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | DE-CIX Madrid | 48793 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | Yes | Yes | No | 65535:666 | Yes | ? |
 | Asimo Networks BV | 49127 | No | 32 | 32 | 128 | 128 | Yes | No | Yes | No | No | 49127:666 | No | No |
+| Megaport | 49915 | Yes | 32 | 32 | 128 | 128 | Yes | Yes | No | Yes | No | 65535:666 | No | No |
 | MAINPORT Peer-Exchange | 50566 | Yes | 32 | 32 | 128 | 128 | Yes | No | Yes | No | No | 65535:666 | Yes | No |
 | NetNod | 52005 | Yes | 8 | 32 | 16 | 128 | Yes | Yes | ? | No | No | 65535:666 | Yes | ? |
 | level66.network | 56381 | Yes | 32 | 32 | 128 | 128 | Yes | No | ? | No | No | 65535:666 | Yes | No |
