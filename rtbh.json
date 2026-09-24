@@ -357,6 +357,23 @@
     "Supports Selective RTBH": "?"
   },
   {
+    "Network": "Hurricane Electric",
+    "ASN": "6939",
+    "Enabled by Default": "No",
+    "V4 Min Length": "24",
+    "V4 Max Length": "32",
+    "V6 Min Length": "?",
+    "V6 Max Length": "?",
+    "IRR Validated": "Yes",
+    "ROA Validated": "?",
+    "ROA Invalid Accepted": "?",
+    "ROA Covering Origin Validated": "?",
+    "ASPA Validated": "?",
+    "RTBH Community": "6939:666",
+    "Forwards RTBH Routes": "?",
+    "Supports Selective RTBH": "?"
+  },
+  {
     "Network": "Telef?nica M?xico",
     "ASN": "7438",
     "Enabled by Default": "No",
