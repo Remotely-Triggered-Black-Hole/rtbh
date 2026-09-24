@@ -1309,6 +1309,23 @@
     "Supports Selective RTBH": "?"
   },
   {
+    "Network": "Reliance Jio",
+    "ASN": "64049",
+    "Enabled by Default": "No",
+    "V4 Min Length": "32",
+    "V4 Max Length": "32",
+    "V6 Min Length": "128",
+    "V6 Max Length": "128",
+    "IRR Validated": "No",
+    "ROA Validated": "Yes",
+    "ROA Invalid Accepted": "Yes",
+    "ROA Covering Origin Validated": "No",
+    "ASPA Validated": "No",
+    "RTBH Community": "64049:670",
+    "Forwards RTBH Routes": "No",
+    "Supports Selective RTBH": "No"
+  },
+  {
     "Network": "DE-CIX Copenhagen",
     "ASN": "201561",
     "Enabled by Default": "Yes",
